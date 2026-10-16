@@ -1,5 +1,6 @@
 # Problem 13: Symmetric Difference
-# https://www.hackerrank.com/challenges/symmetric-difference/problemif __name__ == '__main__':
+# https://www.hackerrank.com/challenges/symmetric-difference/problem
+if __name__ == '__main__':
     m = int(input())
     set_m = set(map(int, input().split()))
 
