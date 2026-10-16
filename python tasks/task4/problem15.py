@@ -1,5 +1,6 @@
 # Problem 15: Word Order
-# https://www.hackerrank.com/challenges/word-order/problemn = int(input())
+# https://www.hackerrank.com/challenges/word-order/problem
+n = int(input())
 d = {}
 for i in range(n):
     word = input()
