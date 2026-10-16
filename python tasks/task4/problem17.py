@@ -1,5 +1,6 @@
 # Problem 17: Finding the Percentage
-# https://www.hackerrank.com/challenges/finding-the-percentage/problemn = int(input())
+# https://www.hackerrank.com/challenges/finding-the-percentage/problem
+n = int(input())
 students = {}
 
 for i in range(n):
