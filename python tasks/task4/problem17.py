@@ -1,4 +1,5 @@
-n = int(input())
+# Problem 17: Finding the Percentage
+# https://www.hackerrank.com/challenges/finding-the-percentage/problemn = int(input())
 students = {}
 
 for i in range(n):
