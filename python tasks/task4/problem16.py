@@ -1,4 +1,5 @@
-if __name__ == '__main__':
+# Problem 16: Nested Lists
+# https://www.hackerrank.com/challenges/nested-list/problemif __name__ == '__main__':
     students = []
 
     for _ in range(int(input())):
