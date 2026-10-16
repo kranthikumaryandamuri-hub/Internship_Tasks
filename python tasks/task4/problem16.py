@@ -1,5 +1,6 @@
 # Problem 16: Nested Lists
-# https://www.hackerrank.com/challenges/nested-list/problemif __name__ == '__main__':
+# https://www.hackerrank.com/challenges/nested-list/problem
+if __name__ == '__main__':
     students = []
 
     for _ in range(int(input())):
