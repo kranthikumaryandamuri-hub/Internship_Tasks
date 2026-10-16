@@ -1,5 +1,5 @@
-from collections import Counter
-
+# Problem 19: Collections.Counter()
+# https://www.hackerrank.com/challenges/collections-counter/problemfrom collections import Counter
 x = int(input())
 shoes = Counter(map(int, input().split()))
 
