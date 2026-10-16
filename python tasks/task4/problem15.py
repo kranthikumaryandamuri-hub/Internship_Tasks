@@ -1,4 +1,5 @@
-n = int(input())
+# Problem 15: Word Order
+# https://www.hackerrank.com/challenges/word-order/problemn = int(input())
 d = {}
 for i in range(n):
     word = input()
