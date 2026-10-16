@@ -1,4 +1,5 @@
-n = int(input())
+# Problem 18: Lists
+# https://www.hackerrank.com/challenges/python-lists/problemn = int(input())
 lst = []
 
 for i in range(n):
