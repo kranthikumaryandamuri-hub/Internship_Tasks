@@ -2,20 +2,14 @@
 # https://www.hackerrank.com/challenges/alphabet-rangoli/problem
 def print_rangoli(size):
     import string
-    alphabet = string.ascii_lowercase
+    alpha = string.ascii_lowercase
 
     lines = []
-
     for i in range(size):
-        left = alphabet[size - 1:size - i - 1:-1]
-        right = alphabet[size - 1 - i:size]
-        letters = left + right
-        row = '-'.join(letters).center(4 * size - 3, '-')
-        lines.append(row)
+        s = "-".join(alpha[size-1:i:-1] + alpha[i:size])
+        lines.append(s.center(4 * size - 3, "-"))
 
-    print('\n'.join(lines[:0:-1] + lines))
-
-
+    print("\n".join(lines[:0:-1] + lines))
 if __name__ == '__main__':
     n = int(input())
     print_rangoli(n)
